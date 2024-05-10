@@ -24,7 +24,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 operation = input("Enter operation (+ for addition, - for subtraction, * for multiplication, / for division): ")
 
-# Perform the chosen operation
+# Perform chosen operation
 if operation == '+':
     print("Result:", add(num1, num2))
 elif operation == '-':
